@@ -1,6 +1,19 @@
-Table {
+
+table {
     width: 100%;
+}
+
+td.deep {
+    background-color: deeppink;
     
+}
+td.pink {
+    background-color: pink;
+    
+}
+
+td.rad {
+    background-color: darkred;
 }
 
 td.yellow {
@@ -11,8 +24,26 @@ td.grey {
     background-color: grey;
 }
 
-table.periodic_table td.not_empty{
-    color: black;
-    text-align: center;
-    transition: all 0.2s;
+td.dark grey {
+    background-color:  darkgrey;
+}
+
+td.light {
+    background-color: coral;
+}
+
+td.blue {
+    background-color: skyblue;
+}
+
+td.green{
+    background-color: greenyellow
+}
+
+td.brown{
+    background-color: sandybrown;
+}
+
+td.dark brown{
+    background-color: burlywood;
 }
